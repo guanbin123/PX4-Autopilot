@@ -83,4 +83,5 @@ mc_pos_control start
 #
 land_detector start multicopter
 
-
+pca9534 start -X
+vl53l1x start -X
