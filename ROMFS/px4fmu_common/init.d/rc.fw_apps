@@ -34,3 +34,5 @@ fw_autotune_attitude_control start
 # Start Land Detector.
 #
 land_detector start fixedwing
+
+PCA9534 start

@@ -100,10 +100,7 @@
 #define PCA9685_PWMMAX 600 // this is the 'maximum' pulse length count (out of 4096)_PWMFREQ 60.0f
 
 #define PCA9685_PWMCENTER ((PCA9685_PWMMAX + PCA9685_PWMMIN)/2)
-#define PCA9685_MAXSERVODEG 90.0f /* maximal servo deflection in degrees
-				     PCA9685_PWMMIN <--> -PCA9685_MAXSERVODEG
-				     PCA9685_PWMMAX <--> PCA9685_MAXSERVODEG
-				     */
+#define PCA9685_MAXSERVODEG 90.0f /* maximal servo deflection in degrees  PCA9685_PWMMIN <--> -PCA9685_MAXSERVODEG  PCA9685_PWMMAX <--> PCA9685_MAXSERVODEG */
 #define PCA9685_SCALE ((PCA9685_PWMMAX - PCA9685_PWMCENTER)/(M_DEG_TO_RAD_F * PCA9685_MAXSERVODEG)) // scales from rad to PWM
 
 enum IOX_MODE {
